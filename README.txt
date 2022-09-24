@@ -1,10 +1,11 @@
 bot deployed to heroku - free 500 hours/month
 
-git commit -m 'j'
+after update:
 
-if new file:
-	fit add filename
-
+git add .
+git commit -m #
 git push
+
+
 
 
