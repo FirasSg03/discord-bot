@@ -31,7 +31,7 @@ class MyClient(discord.Client):
         if ('meh' in  message.content.lower()) or ('fuck' in message.content.lower()) or ('roast' in message.content.lower()):
             await message.channel.send('gfu...')
             time.sleep(2)
-            await message.channel.send(self.badday[random.randint(1,15)])
+            await message.channel.send(self.badday[random.randint(1,17)])
         
         if ('quote' in  message.content.lower()) or ('wisdom' in message.content.lower()) or ('help' in message.content.lower()):
             await message.channel.send('here u go...')
