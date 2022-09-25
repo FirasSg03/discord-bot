@@ -17,9 +17,6 @@ class MyClient(discord.Client):
     async def on_ready(self):
         print('logged in as ', self.user)
     
-    async def on_member_join(member):
-        await message.channel.send('Welcome ', member.name, ' .!!')
-    
     async def on_message(self, message):
         if message.author == self.user:
             return
