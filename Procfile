@@ -1,1 +1,1 @@
-worker: python DiscordBot.py
+worker: python messagedBot.py & python commandBot.py & wait -n
