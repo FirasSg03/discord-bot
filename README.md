@@ -1,19 +1,20 @@
-# Iteractive Discord bot with python
+# Iteractive Discord bot with python, discord APIs
 
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
 
 ## Table of Contents
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Examples](#examples)
+- [Commands](#commands)
 - [License](#license)
 - [Contact](#contact)
 
 ## Description
 
-Monkey is a bot built using Python that provides funny responsive way of interaction to certain triggers: words, patterns, jokes, etc...
+Monkey.D is a bot built using Python that provides funny responsive way of interaction to certain triggers: words, patterns, jokes, etc...
 
 ## Installation
 1. Clone this repository: `git clone https://github.com/ohmma0tokita/discord-bot-project.git`
@@ -21,26 +22,22 @@ Monkey is a bot built using Python that provides funny responsive way of interac
 3. Install dependencies: `pip install -r requirements.txt`
 
 ## Usage
-1. Run the bot: `python bot.py`
-2. Invite your bot to your Discord server using the provided OAuth2 link.
+1. Run the bot: `python commandBot.py; messageBot.py`
+2. Invite the bot to your Discord server: "https://discordapp.com/oauth2/authorize?&client_id=1020409034479771659&scope=bot"
 3. Use bot commands to interact with the bot in your server.
 
 ## Features
-- Create GIFs from individual frames, add music if you want.
-- Adjust frame duration and order for custom animations.
-- Support for various image formats (PNG, JPEG, etc.).
-- Lightweight and easy-to-understand codebase.
+- Listens to the discussion awaiting for a trigger such as a specific word or a command
+- plays ping pong
+- tells jokes
+- tells quotes
+- tells goodbye
+- tells you to shut up sometimes
 
-## Examples
-**Creating a GIF:**
-```python
-# Import the necessary modules
-from gif_utils import create_gif
-
-# Create a GIF
-# you can use the anime or neon frames folders provided in the repo
-create_gif("frames-folder-name", music_file="music-file",speed="transition-speed")
-```
+## commands
+- `$test`: resends the command
+- `$bottles amount(optional) liquid(optional) `: sends "{amount} bottles of {liquid} on the wall!"
+- `$jail discord_member(optional) reason(optional)`: sends "{slapped} is going to jail for {reason}"
 
 ## Licence
 This project is licensed under the MIT License
