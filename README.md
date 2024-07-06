@@ -22,9 +22,9 @@ Monkey.D is a bot built using Python that provides funny responsive way of inter
 3. Install dependencies: `pip install -r requirements.txt`
 
 ## Usage
-1. Run the bot: `python commandBot.py; messageBot.py`
-2. Invite the bot to your Discord server: "https://discordapp.com/oauth2/authorize?&client_id=1020409034479771659&scope=bot"
-3. Use bot commands to interact with the bot in your server.
+1. Invite the bot to your Discord server: "https://discordapp.com/oauth2/authorize?&client_id=1020409034479771659&scope=bot"
+2. Run the bot: `main.py`
+3. Use bot commands or tyoe "!" followed by your text to interact with the bot in your server.
 
 ## Features
 - Listens to the discussion awaiting for a trigger such as a specific word or a command
