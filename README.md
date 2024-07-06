@@ -28,16 +28,12 @@ Monkey.D is a bot built using Python that provides funny responsive way of inter
 
 ## Features
 - Listens to the discussion awaiting for a trigger such as a specific word or a command
-- plays ping pong
-- tells jokes
-- tells quotes
-- tells goodbye
+- interacts with you using generative AI, GEMINI API
 - tells you to shut up sometimes
 
 ## commands
 - `$test`: resends the command
 - `$bottles amount(optional) liquid(optional) `: sends "{amount} bottles of {liquid} on the wall!"
-- `$jail discord_member(optional) reason(optional)`: sends "{slapped} is going to jail for {reason}"
 
 ## Licence
 This project is licensed under the MIT License
