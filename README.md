@@ -16,10 +16,12 @@
 
 Monkey.D is a bot built using Python that provides funny responsive way of interaction to certain triggers: words, patterns, jokes, etc...
 
-## Installation
+## Installation to run bot
 1. Clone this repository: `git clone https://github.com/ohmma0tokita/discord-bot-project.git`
 2. Navigate to the project directory: `cd discord-bot`
 3. Install dependencies: `pip install -r requirements.txt`
+4. API-KEY: "https://aistudio.google.com/app/apikey"
+5. BOT-TOKEN: "https://discord.com/developers/applications/1020409034479771659/oauth2"
 
 ## Usage
 1. Invite the bot to your Discord server: "https://discordapp.com/oauth2/authorize?&client_id=1020409034479771659&scope=bot"
